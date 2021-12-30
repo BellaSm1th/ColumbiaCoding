@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class = "gameBody">
+    <!-- diplays back button -->
+    <div>
+        <button class  = "backButton" style = "vertical-align:middle" onclick = "window.location.href='index.html';"><span>Back</span></button>
+    </div>
+
+    <!-- displays stacker title -->
+    <div id="title">
+        <h1 class = "gameHeader">Stacker</h1>
+        <p class = "gameP1">Created by Bella Smith, Kyle Yoon, Leonardo Hernandez, Zachary Leibman, Viraj Anand, Aryan Jain, and Ila Chakrapani</p>
+    </div>
+
+    <!-- displays rules -->
+    <div id="rules">
+        <h2 class = "gameHeader">Rules</h2>
+        <p class = "gameP2">Welcome to Stacker! When the game starts, press down on the spacebar to place blocks and stack them to the top to win! Reach the first white outlined row to win a minor prize and the second white outlined row to win a major prize!</p>
+    </div>
+
+    <!-- js DOM. creates winningBox if minor or major row is reached or if player loses -->
+    <div id = "winningAlert"></div>
+
+    <!-- displays game and minor and major white row outline -->
+    <div id="board">
+        <div id = "prizeLine"></div>
+        <div id = "prizeLineTwo"></div>
+        <div id = "prizeLineThree"></div>
+        <div id = "prizeLineFour"></div>
+        <div id = "vprizeLine"></div>
+        <div id = "vprizeLineTwo"></div>
+        <div id = "vprizeLineThree"></div>
+        <div id = "vprizeLineFour"></div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
